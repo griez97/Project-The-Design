@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+:root{
+    --pink-color:#ff3571;
+    --gray-font:rgb(221, 221, 221);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    max-width: 100%;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 5.5%;
+    left: 2.5%;
+}
+
+.header-intro{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 0 0 5%;
+}
+
+.intro{
+    font-family: "medium";
+    font-size: 2rem;
+}
+.header-intro p{
+    font-family: "light";
+    font-size: 1.125rem;
+}
+
+.float-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 60vw;
+}
+
+.float-dude{
+    position: absolute;
+    top: -5rem;
+    right: 1rem;
+
+    width: 60vw;
+}
+
+.header-intro-scnd{
+    padding: 30rem 0 20rem 15rem;
+}
+
+.header-intro-scnd p{
+    font-family: "light";
+    font-size: 1.5rem;
+    padding-bottom: 4.5rem;
+    padding-top: 2rem;
+}
+
+.title{
+    font-family: "bold";
+    font-size: 6rem;
+
+}
+
+.rocket{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 55.5rem;
+    left: 32rem;
+}
+
+.go-main{
+    text-decoration: none;
+    color: var(--pink-color);
+    font-family: "medium";
+    font-size: 1.5rem;
+}
+
+/* END OF HEADER */
+
+.gallery{
+    width: 100vw;
+    filter: drop-shadow(30px 10px 4px var(--gray-font));
+    z-index: 1;
+}
+
+.sect01{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25rem 10rem 10rem 15rem;
+
+}
+
+.h2{
+    font-family: "medium";
+    font-size: 2.5rem;
+
+}
+
+.sect01-p{
+    font-family: "light";
+    font-size: 1.325rem;
+    line-height: 2em;
+    padding-right: 7rem;
+    width: 53rem;
+}
+
+.sect01-sub{
+    display: flex;
+    position: relative;
+}
+
+.idea{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 12rem;
+
+}
+
+.position-h2{
+    padding-left: 35rem;
+    padding-right: 70rem;
+    margin-bottom: 20rem;
+}
+
+/* 2x2 info texts grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center; 
+}
+
+.box {
+    width: 55rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    padding-left: 15rem;
+    display: flex;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.box3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* end of grid (yes i need that information xd */
+
+.vector-size{
+    width: 40px;
+    height: 40px;
+}
+
+.text-style{
+    text-align: left;
+    
+}
+.text-style h3{
+    font-family: "medium";
+    font-size: 1.325rem;
+}
+
+.text-style p{
+    font-family: "light";
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* background: hsla(339, 100%, 55%, 1);
+
+background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 ); */
