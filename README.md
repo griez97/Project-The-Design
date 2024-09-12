@@ -43,7 +43,7 @@ This project allowed me to dive deeper into **responsive web design**, specifica
 
 ## 📸 Screenshot Preview
 
-![Project Screenshot](./assets/img/preview.png)
+![Project Screenshot](./assets/img/preview-griez.png)
 
 ## 📝 Future Improvements To Come
 
